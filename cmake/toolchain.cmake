@@ -79,7 +79,7 @@ endif()
 if(CUSTOM_TARGET_TRIPLET)
     set(TARGET_TRIPLET ${CUSTOM_TARGET_TRIPLET})
 else()
-    set(TARGET_TRIPLET riscv32-unknown-elf)
+    set(TARGET_TRIPLET riscv64-unknown-elf)
 endif()
 
 # Determine which toolchain will be used based on the TOOLCHAIN_VARIANT
