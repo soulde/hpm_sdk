@@ -1,2 +1,6 @@
 .DS_Store
 *.bak
+
+# Sample build outputs
+samples/**/build/
+*.pyc
